@@ -1,7 +1,7 @@
 #Create vector to store embeddings in chroma db
 
 from embedding import get_embedding_function
-from langchain_community.vectorstores.chroma import Chroma
+from langchain_chroma import Chroma
 from langchain_core.documents import Document
 from loadingdata import load_documents
 from split import split_documents
